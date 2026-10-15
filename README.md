@@ -7,8 +7,7 @@ via the `Patches` menu.
 
 ### URL: `https://beafowl.github.io/sdvx-mid-unlock`
 
-**Back up your original `soundvoltex.dll` and your save data before patching.** Use at your own
-risk, see the [disclaimer](#disclaimer).
+**Back up your original `soundvoltex.dll` and your save data before patching.**
 
 ## Usage
 
@@ -79,13 +78,6 @@ Check that your `soundvoltex.dll` is unmodified (or restore it from your backup)
 Please open an issue with your game version (`KFC-...` identifier), the patches you enabled and what
 went wrong.
 
-## Disclaimer
+## Credits
 
-This is an unofficial, community-made tool, not affiliated with or endorsed by Konami. It modifies
-game files and is provided "as is", without warranty of any kind. You use it entirely at your own
-risk. The author is not liable for any loss or damage resulting from its use, including corrupted
-game files, lost scores, play records, profiles or other save data (locally or on a server), and
-crashes or other problems with the game or your system.
-
-**Always keep backups** of `soundvoltex.dll`, your `data` folder and your server's save data before
-patching.
+The layout of this repository follows [sp2xpatcher](https://github.com/eamuse/sp2xpatcher).
