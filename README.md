@@ -40,15 +40,9 @@ from another site for the same version.
 
 ### Song ID limit
 
-Enable **exactly one** size: 4096, 6144, 8192, 10000, 12288 or 16384. With a limit N, music IDs
-`1 .. N-1` are usable. Keep ID 9001 free (the tutorial uses it). The game's score tables grow with
-the limit, by about 17 MB per 3072 songs.
-
-| Game version | In-game status |
-|---|---|
-| 2026-07-14 (`KFC-6a4f1ee9_79ef18`) | 6144 tested: boot, full song list, IDs 3100 and 6000 playable, scores saved and loaded; other sizes not yet tested |
-| 2026-09-01 (`KFC-6a8fe2c4_7aa1e8`) | not yet tested in-game |
-| 2026-09-15 (`KFC-6aa256e6_7ad708`) | not yet tested in-game |
+Raises the limit to 65535, so music IDs `1 .. 65534` are usable. Keep ID 9001 free (the tutorial
+uses it). The game's score tables grow with the limit and use about 360 MB of memory instead of
+about 17 MB.
 
 ### Custom Songs folder
 
@@ -68,11 +62,6 @@ Selecting a custom song in the subscreen music search opens Custom Songs > ALL a
 The patch also hides the folder the server adds for its current event, and makes the song select
 reopen the folder you were in instead of the folder "recommended for beginners".
 
-In-game status: the folder, its ALL and LEVEL folders and the search jump are tested on game
-version 2026-07-14 (`KFC-6a4f1ee9_79ef18`). The latest changes (level folders behave like the
-game's own, the hidden event folder, reopening the previous folder) and the other game versions are
-not yet tested in-game.
-
 ## Troubleshooting / FAQ
 
 ### "Import failed" when importing from URL
@@ -82,13 +71,13 @@ An import failed error with code 404 means your game version is not supported he
 
 ### My game crashes when starting
 
-Check that you enabled only one Song ID limit size, that your `soundvoltex.dll` is unmodified, and
-that no song in `music_db.xml` uses an ID at or above the limit you picked.
+Check that your `soundvoltex.dll` is unmodified (or restore it from your backup) and that no song in
+`music_db.xml` uses an ID above 65534.
 
-### Reporting test results
+### Reporting problems
 
-Please open an issue if you test a size or game version that is not marked as tested above, with
-what worked or where it crashed.
+Please open an issue with your game version (`KFC-...` identifier), the patches you enabled and what
+went wrong.
 
 ## Disclaimer
 

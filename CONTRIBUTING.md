@@ -1,10 +1,9 @@
 # Contributing
 
-## Test reports
+## Bug reports
 
-The most useful contribution is an in-game test of a size or game version that is not yet marked as
-tested in the [README](README.md). Open an issue with the game version (`KFC-...` identifier),
-the patches you enabled, and what worked or where the game crashed (attach `log.txt` if it did).
+Open an issue with the game version (`KFC-...` identifier), the patches you enabled, and what went
+wrong (attach `log.txt` if the game crashed).
 
 ## Changes to the patch files
 
