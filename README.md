@@ -1,82 +1,52 @@
 # SDVX song ID limit
 
-spice2x patches for SOUND VOLTEX (`soundvoltex.dll`) that raise the music ID limit from **3072**, so
-custom songs can use IDs above 3071. Without them, a `music_db.xml` with an ID of 3072 or more crashes
-the game during boot. Patches here are meant to be used with [spice2x](https://spice2x.github.io/)
-via the `Patches` menu.
+Every song in SOUND VOLTEX has a music ID. If a song has an ID over 3071, the game crashes while booting.
+
+This repo provides spice2x patches that raise the music ID limit from 3072 to 65535 (basically unlimited).
 
 ### URL: `https://beafowl.github.io/sdvx-mid-unlock`
-
-**Back up your original `soundvoltex.dll` and your save data before patching.**
 
 ## Usage
 
 <details>
 <summary style="font-size: 16px">Method #1: Import from URL (easiest)</summary>
 
-> *If the import does not work, update spice2x to the latest stable release from https://spice2x.github.io/.*
+> _If the import does not work, update spice2x to the latest stable release from https://spice2x.github.io/._
 
 - Open `spicecfg.exe` (or run `spice64 --cfg`) and go to the `Patches` tab
 - Click `Import from URL`, enter `https://beafowl.github.io/sdvx-mid-unlock` and click `Import`
 - As long as your game version is [supported](SUPPORTED.md), the patches below show up in the list.
   Hover over a patch to see what it does
-- Use the **unmodified** `soundvoltex.dll`: spice2x applies the patches in memory and checks the original bytes
 
-spice2x keeps one imported list per game version, so importing this URL replaces patches imported
-from another site for the same version.
 </details>
 
 <details>
 <summary style="font-size: 16px">Method #2: Reading from JSON</summary>
 
 - Open [SUPPORTED.md](SUPPORTED.md) and make sure your game version is supported
-- Click the *Identifier* link for your version, then click *Download raw file* in the top right
+- Click the _Identifier_ link for your version, then click _Download raw file_ in the top right
 - Create a folder named `patches` next to `spicecfg.exe` if there is none, and put the JSON file in it
 - Open `spicecfg.exe` and go to the `Patches` tab
 </details>
 
 ## Patches
 
-### Song ID limit
+### Increase song ID limit
 
-Raises the limit to 65535, so music IDs `1 .. 65534` are usable. Keep ID 9001 free (the tutorial
-uses it). The game's score tables grow with the limit and use about 360 MB of memory instead of
-about 17 MB.
+As mentioned above, raises the limit to 65535, so music IDs `1 .. 65534` are usable.
 
 ### Custom Songs folder
 
-Gives all songs that carry `<tag id="100"/>` in `music_db.xml` a top-level folder **Custom Songs**
-in the song select, with the sub-folders **ALL** and **LEVEL 1** to **LEVEL 20**, and hides them
-from every other folder, including ALL and the stock level, grade and medal folders. The folder
-takes the place of the contest category, whose contest folders are no longer listed. Add the tag
-inside each custom song's `<music>` entry, e.g. after `</difficulty>`:
+The difficulty of custom songs can be quite far from what the game would suggest at a certain level, which
+makes the level folders inaccurate when custom songs are included.
 
-```xml
-    </difficulty>
-    <tag id="100"/>
-  </music>
-```
+For that reason, a patch is included that moves all custom songs to a **Custom Songs** folder. They will be
+removed from all other folders.
 
-Selecting a custom song in the subscreen music search opens Custom Songs > ALL and jumps to it.
-The patch also hides the folder the server adds for its current event, and makes the song select
-reopen the folder you were in instead of the folder "recommended for beginners".
+The folder will replace the Contest folder. Only songs that have an ID of 100 in the music DB file will be moved.
+The folder is further categorized into **ALL** and **LEVEL 1** to **LEVEL 20** folders.
 
-## Troubleshooting / FAQ
-
-### "Import failed" when importing from URL
-
-An import failed error with code 404 means your game version is not supported here. Check
-[SUPPORTED.md](SUPPORTED.md).
-
-### My game crashes when starting
-
-Check that your `soundvoltex.dll` is unmodified (or restore it from your backup) and that no song in
-`music_db.xml` uses an ID above 65534.
-
-### Reporting problems
-
-Please open an issue with your game version (`KFC-...` identifier), the patches you enabled and what
-went wrong.
+To set all songs to a specified ID, use https://github.com/Beafowl/VoxCharger.
 
 ## Credits
 
