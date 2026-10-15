@@ -43,7 +43,7 @@ makes the level folders inaccurate when custom songs are included.
 For that reason, a patch is included that moves all custom songs to a **Custom Songs** folder. They will be
 removed from all other folders.
 
-The folder will replace the Contest folder. Only songs that have an <tag id="100"/> in the music DB file will be moved.
+The folder will replace the Contest folder. Only songs that have a `<tag id="100"/>` in the music DB file will be moved.
 The folder is further categorized into **ALL** and **LEVEL 1** to **LEVEL 20** folders.
 
 To set all songs to a specified ID, use https://github.com/Beafowl/VoxCharger.
