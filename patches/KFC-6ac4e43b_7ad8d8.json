@@ -1,0 +1,3771 @@
+[
+    {
+        "gameCode": "KFC",
+        "version": "KFC-2026101300",
+        "lastUpdated": "2026-10-21 07:09:14",
+        "peIdentifier": "KFC-6ac4e43b_7ad8d8",
+        "source": "https://github.com/Beafowl/sdvx-mid-unlock; https://patcher.573.moe/"
+    },
+    {
+        "name": "Song ID limit: 65535",
+        "description": "Raises the theoretical maximum song count from 3072 to 65535.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1918,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "4869CBFFFF00004803CEE963DE3100"
+            },
+            {
+                "offset": 987255,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1013548,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1013559,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147648C1E20A",
+                "dataEnabled": "4869D6FFFF000090"
+            },
+            {
+                "offset": 1032538,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1032633,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1032648,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08B00700",
+                "dataEnabled": "64FFA300"
+            },
+            {
+                "offset": 1032732,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1032747,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08600F00",
+                "dataEnabled": "C0FE4701"
+            },
+            {
+                "offset": 1032832,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1032847,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08101700",
+                "dataEnabled": "1CFEEB01"
+            },
+            {
+                "offset": 1032932,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1032947,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08C01E00",
+                "dataEnabled": "78FD8F02"
+            },
+            {
+                "offset": 1033032,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1033047,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08702600",
+                "dataEnabled": "D4FC3303"
+            },
+            {
+                "offset": 1632389,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1632400,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 1646701,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 1646712,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 2252782,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2252793,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147F48C1E20A",
+                "dataEnabled": "4869D7FFFF000090"
+            },
+            {
+                "offset": 2253342,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2253361,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2559972,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2559983,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2561159,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2561171,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4B8D144048C1E20A",
+                "dataEnabled": "4969D0FFFF000090"
+            },
+            {
+                "offset": 2563816,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2563827,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2563911,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2563923,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4B8D144948C1E20A",
+                "dataEnabled": "4969D1FFFF000090"
+            },
+            {
+                "offset": 2569768,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2582751,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2582969,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2584743,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2584976,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2592433,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2592452,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4948C1E10A",
+                "dataEnabled": "4869C9FFFF000090"
+            },
+            {
+                "offset": 2600348,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2604418,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2609564,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2609583,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D146D000000004803D548C1E20A",
+                "dataEnabled": "4869D5FFFF00000F1F840000000000"
+            },
+            {
+                "offset": 2656368,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 2656417,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 2656431,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1CC00600",
+                "dataEnabled": "8CFF8F00"
+            },
+            {
+                "offset": 2660261,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2660272,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2660315,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2660326,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4048C1E10A",
+                "dataEnabled": "4869C8FFFF000090"
+            },
+            {
+                "offset": 2662406,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2662417,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2662458,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2662469,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4048C1E10A",
+                "dataEnabled": "4869C8FFFF000090"
+            },
+            {
+                "offset": 2664262,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2664273,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2664314,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2664325,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4048C1E10A",
+                "dataEnabled": "4869C8FFFF000090"
+            },
+            {
+                "offset": 2664890,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2664901,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2664940,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2664951,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4048C1E10A",
+                "dataEnabled": "4869C8FFFF000090"
+            },
+            {
+                "offset": 2667950,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00003F00",
+                "dataEnabled": "C0FA3F05"
+            },
+            {
+                "offset": 2667971,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00003F00",
+                "dataEnabled": "C0FA3F05"
+            },
+            {
+                "offset": 2667983,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00480000",
+                "dataEnabled": "FAFF0500"
+            },
+            {
+                "offset": 2677119,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2677636,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2681853,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2682512,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2684393,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2684649,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2684986,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2685255,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2685882,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2686537,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2692166,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2692336,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2692506,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2692743,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2692912,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2693079,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2693421,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2700185,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2700201,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 2705061,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 2705072,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 3160811,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3160822,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 3226617,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "10E04600",
+                "dataEnabled": "28FAE705"
+            },
+            {
+                "offset": 3227022,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "20202E00",
+                "dataEnabled": "48FCD703"
+            },
+            {
+                "offset": 3227042,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "20202E00",
+                "dataEnabled": "48FCD703"
+            },
+            {
+                "offset": 3227071,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00480000",
+                "dataEnabled": "FAFF0500"
+            },
+            {
+                "offset": 3227104,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 3227110,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 3227116,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "18202E00",
+                "dataEnabled": "40FCD703"
+            },
+            {
+                "offset": 3227448,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "10E04600",
+                "dataEnabled": "28FAE705"
+            },
+            {
+                "offset": 3228921,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60C04E00",
+                "dataEnabled": "D0F98F06"
+            },
+            {
+                "offset": 3228971,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1CC00600",
+                "dataEnabled": "8CFF8F00"
+            },
+            {
+                "offset": 3228984,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60401400",
+                "dataEnabled": "B0FEAF01"
+            },
+            {
+                "offset": 3229017,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3230553,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "20202E00",
+                "dataEnabled": "48FCD703"
+            },
+            {
+                "offset": 3267771,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3267795,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 3269017,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "34D00B00",
+                "dataEnabled": "38FFFB00"
+            },
+            {
+                "offset": 3269045,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D82FF4FF",
+                "dataEnabled": "D40004FF"
+            },
+            {
+                "offset": 3269075,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3269097,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E02FF4FF",
+                "dataEnabled": "DC0004FF"
+            },
+            {
+                "offset": 3269119,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F02FF4FF",
+                "dataEnabled": "EC0004FF"
+            },
+            {
+                "offset": 3269141,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0030F4FF",
+                "dataEnabled": "FC0004FF"
+            },
+            {
+                "offset": 3269192,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1030F4FF",
+                "dataEnabled": "0C0104FF"
+            },
+            {
+                "offset": 3269220,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "2030F4FF",
+                "dataEnabled": "1C0104FF"
+            },
+            {
+                "offset": 3269256,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6C30F4FF",
+                "dataEnabled": "680104FF"
+            },
+            {
+                "offset": 3269275,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "A030F4FF",
+                "dataEnabled": "9C0104FF"
+            },
+            {
+                "offset": 3269294,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C30F4FF",
+                "dataEnabled": "780104FF"
+            },
+            {
+                "offset": 3269308,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D82FF4FF",
+                "dataEnabled": "D40004FF"
+            },
+            {
+                "offset": 3269319,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6030F4FF",
+                "dataEnabled": "5C0104FF"
+            },
+            {
+                "offset": 3269326,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6430F4FF",
+                "dataEnabled": "600104FF"
+            },
+            {
+                "offset": 3269333,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B030F4FF",
+                "dataEnabled": "AC0104FF"
+            },
+            {
+                "offset": 3269340,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "3030F4FF",
+                "dataEnabled": "2C0104FF"
+            },
+            {
+                "offset": 3269352,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4030F4FF",
+                "dataEnabled": "3C0104FF"
+            },
+            {
+                "offset": 3269359,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8C30F4FF",
+                "dataEnabled": "880104FF"
+            },
+            {
+                "offset": 3269365,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "9C30F4FF",
+                "dataEnabled": "980104FF"
+            },
+            {
+                "offset": 3269372,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "C030F4FF",
+                "dataEnabled": "BC0104FF"
+            },
+            {
+                "offset": 3269379,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D030F4FF",
+                "dataEnabled": "CC0104FF"
+            },
+            {
+                "offset": 3269386,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5030F4FF",
+                "dataEnabled": "4C0104FF"
+            },
+            {
+                "offset": 3269401,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "DC2FF4FF",
+                "dataEnabled": "D80004FF"
+            },
+            {
+                "offset": 3269418,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3269653,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D8CF0B00",
+                "dataEnabled": "DCFEFB00"
+            },
+            {
+                "offset": 3269693,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E0CF0B00",
+                "dataEnabled": "E4FEFB00"
+            },
+            {
+                "offset": 3269715,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F0CF0B00",
+                "dataEnabled": "F4FEFB00"
+            },
+            {
+                "offset": 3269737,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00D00B00",
+                "dataEnabled": "04FFFB00"
+            },
+            {
+                "offset": 3269759,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "10D00B00",
+                "dataEnabled": "14FFFB00"
+            },
+            {
+                "offset": 3269781,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "20D00B00",
+                "dataEnabled": "24FFFB00"
+            },
+            {
+                "offset": 3269793,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "30D00B00",
+                "dataEnabled": "34FFFB00"
+            },
+            {
+                "offset": 3269815,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3269827,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "40D00B00",
+                "dataEnabled": "44FFFB00"
+            },
+            {
+                "offset": 3269834,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "50D00B00",
+                "dataEnabled": "54FFFB00"
+            },
+            {
+                "offset": 3269841,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60D00B00",
+                "dataEnabled": "64FFFB00"
+            },
+            {
+                "offset": 3269848,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "64D00B00",
+                "dataEnabled": "68FFFB00"
+            },
+            {
+                "offset": 3269855,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6CD00B00",
+                "dataEnabled": "70FFFB00"
+            },
+            {
+                "offset": 3269862,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7CD00B00",
+                "dataEnabled": "80FFFB00"
+            },
+            {
+                "offset": 3269869,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8CD00B00",
+                "dataEnabled": "90FFFB00"
+            },
+            {
+                "offset": 3269875,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "9CD00B00",
+                "dataEnabled": "A0FFFB00"
+            },
+            {
+                "offset": 3269886,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "A0D00B00",
+                "dataEnabled": "A4FFFB00"
+            },
+            {
+                "offset": 3269893,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B0D00B00",
+                "dataEnabled": "B4FFFB00"
+            },
+            {
+                "offset": 3269900,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "C0D00B00",
+                "dataEnabled": "C4FFFB00"
+            },
+            {
+                "offset": 3269907,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D0D00B00",
+                "dataEnabled": "D4FFFB00"
+            },
+            {
+                "offset": 3269913,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D8CF0B00",
+                "dataEnabled": "DCFEFB00"
+            },
+            {
+                "offset": 3269926,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D8CF0B00",
+                "dataEnabled": "DCFEFB00"
+            },
+            {
+                "offset": 3269932,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "DCCF0B00",
+                "dataEnabled": "E0FEFB00"
+            },
+            {
+                "offset": 3269945,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "DCCF0B00",
+                "dataEnabled": "E0FEFB00"
+            },
+            {
+                "offset": 3269951,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00702300",
+                "dataEnabled": "0CFDF302"
+            },
+            {
+                "offset": 3269978,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3270059,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3270123,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "48C1E10A4803CE4869D9FC000000",
+                "dataEnabled": "E98E21CEFF4869D9FC0000006690"
+            },
+            {
+                "offset": 3287373,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3298014,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3298075,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0C202E00",
+                "dataEnabled": "34FCD703"
+            },
+            {
+                "offset": 3298087,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 3299120,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08202E00",
+                "dataEnabled": "30FCD703"
+            },
+            {
+                "offset": 3299131,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0C202E00",
+                "dataEnabled": "34FCD703"
+            },
+            {
+                "offset": 3299141,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "18202E00",
+                "dataEnabled": "40FCD703"
+            },
+            {
+                "offset": 3299619,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0C202E00",
+                "dataEnabled": "34FCD703"
+            },
+            {
+                "offset": 3299631,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "18202E00",
+                "dataEnabled": "40FCD703"
+            },
+            {
+                "offset": 3299639,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "A0B00700",
+                "dataEnabled": "FCFFA300"
+            },
+            {
+                "offset": 3299734,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FC4FF8FF",
+                "dataEnabled": "A0005CFF"
+            },
+            {
+                "offset": 3299761,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0450F8FF",
+                "dataEnabled": "A8005CFF"
+            },
+            {
+                "offset": 3299767,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "684FF8FF",
+                "dataEnabled": "0C005CFF"
+            },
+            {
+                "offset": 3299778,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6C4FF8FF",
+                "dataEnabled": "10005CFF"
+            },
+            {
+                "offset": 3299785,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "744FF8FF",
+                "dataEnabled": "18005CFF"
+            },
+            {
+                "offset": 3299792,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C4FF8FF",
+                "dataEnabled": "20005CFF"
+            },
+            {
+                "offset": 3299799,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "844FF8FF",
+                "dataEnabled": "28005CFF"
+            },
+            {
+                "offset": 3299806,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "944FF8FF",
+                "dataEnabled": "38005CFF"
+            },
+            {
+                "offset": 3299813,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "9C4FF8FF",
+                "dataEnabled": "40005CFF"
+            },
+            {
+                "offset": 3299820,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8C4FF8FF",
+                "dataEnabled": "30005CFF"
+            },
+            {
+                "offset": 3299827,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D04FF8FF",
+                "dataEnabled": "74005CFF"
+            },
+            {
+                "offset": 3299834,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D84FF8FF",
+                "dataEnabled": "7C005CFF"
+            },
+            {
+                "offset": 3299841,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E04FF8FF",
+                "dataEnabled": "84005CFF"
+            },
+            {
+                "offset": 3299848,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E84FF8FF",
+                "dataEnabled": "8C005CFF"
+            },
+            {
+                "offset": 3299855,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F04FF8FF",
+                "dataEnabled": "94005CFF"
+            },
+            {
+                "offset": 3299861,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F84FF8FF",
+                "dataEnabled": "9C005CFF"
+            },
+            {
+                "offset": 3299867,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0850F8FF",
+                "dataEnabled": "AC005CFF"
+            },
+            {
+                "offset": 3299878,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "A44FF8FF",
+                "dataEnabled": "48005CFF"
+            },
+            {
+                "offset": 3299885,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "AC4FF8FF",
+                "dataEnabled": "50005CFF"
+            },
+            {
+                "offset": 3299891,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B44FF8FF",
+                "dataEnabled": "58005CFF"
+            },
+            {
+                "offset": 3299903,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B84FF8FF",
+                "dataEnabled": "5C005CFF"
+            },
+            {
+                "offset": 3299911,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "C84FF8FF",
+                "dataEnabled": "6C005CFF"
+            },
+            {
+                "offset": 3299922,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3299928,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "684FF8FF",
+                "dataEnabled": "0C005CFF"
+            },
+            {
+                "offset": 3299937,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "684FF8FF",
+                "dataEnabled": "0C005CFF"
+            },
+            {
+                "offset": 3299956,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6C4FF8FF",
+                "dataEnabled": "10005CFF"
+            },
+            {
+                "offset": 3300071,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3300109,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FCAF0700",
+                "dataEnabled": "58FFA300"
+            },
+            {
+                "offset": 3300115,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "04B00700",
+                "dataEnabled": "60FFA300"
+            },
+            {
+                "offset": 3300121,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "68AF0700",
+                "dataEnabled": "C4FEA300"
+            },
+            {
+                "offset": 3300132,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6CAF0700",
+                "dataEnabled": "C8FEA300"
+            },
+            {
+                "offset": 3300139,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74AF0700",
+                "dataEnabled": "D0FEA300"
+            },
+            {
+                "offset": 3300146,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7CAF0700",
+                "dataEnabled": "D8FEA300"
+            },
+            {
+                "offset": 3300153,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "84AF0700",
+                "dataEnabled": "E0FEA300"
+            },
+            {
+                "offset": 3300160,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "94AF0700",
+                "dataEnabled": "F0FEA300"
+            },
+            {
+                "offset": 3300167,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "9CAF0700",
+                "dataEnabled": "F8FEA300"
+            },
+            {
+                "offset": 3300174,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8CAF0700",
+                "dataEnabled": "E8FEA300"
+            },
+            {
+                "offset": 3300181,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D0AF0700",
+                "dataEnabled": "2CFFA300"
+            },
+            {
+                "offset": 3300188,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D8AF0700",
+                "dataEnabled": "34FFA300"
+            },
+            {
+                "offset": 3300195,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E0AF0700",
+                "dataEnabled": "3CFFA300"
+            },
+            {
+                "offset": 3300202,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E8AF0700",
+                "dataEnabled": "44FFA300"
+            },
+            {
+                "offset": 3300209,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F0AF0700",
+                "dataEnabled": "4CFFA300"
+            },
+            {
+                "offset": 3300215,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F8AF0700",
+                "dataEnabled": "54FFA300"
+            },
+            {
+                "offset": 3300221,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08B00700",
+                "dataEnabled": "64FFA300"
+            },
+            {
+                "offset": 3300232,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "A4AF0700",
+                "dataEnabled": "00FFA300"
+            },
+            {
+                "offset": 3300239,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "ACAF0700",
+                "dataEnabled": "08FFA300"
+            },
+            {
+                "offset": 3300245,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B4AF0700",
+                "dataEnabled": "10FFA300"
+            },
+            {
+                "offset": 3300252,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B8AF0700",
+                "dataEnabled": "14FFA300"
+            },
+            {
+                "offset": 3300260,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "C8AF0700",
+                "dataEnabled": "24FFA300"
+            },
+            {
+                "offset": 3300271,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3300281,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "68AF0700",
+                "dataEnabled": "C4FEA300"
+            },
+            {
+                "offset": 3300293,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "68AF0700",
+                "dataEnabled": "C4FEA300"
+            },
+            {
+                "offset": 3300304,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6CAF0700",
+                "dataEnabled": "C8FEA300"
+            },
+            {
+                "offset": 3300314,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00101700",
+                "dataEnabled": "14FEEB01"
+            },
+            {
+                "offset": 3300339,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3300558,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3300898,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3300913,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4C8D04404863C249C1E00A",
+                "dataEnabled": "4C69C0FFFF00004863C290"
+            },
+            {
+                "offset": 3301011,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3301174,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0C202E00",
+                "dataEnabled": "34FCD703"
+            },
+            {
+                "offset": 3301186,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 3302024,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3302042,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00B00700",
+                "dataEnabled": "5CFFA300"
+            },
+            {
+                "offset": 3302209,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3302260,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3302384,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3302395,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C5B48C1E10A",
+                "dataEnabled": "4869CBFFFF000090"
+            },
+            {
+                "offset": 3302638,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3302657,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C6D000000004803CD48C1E10A",
+                "dataEnabled": "4869CDFFFF00000F1F840000000000"
+            },
+            {
+                "offset": 3303264,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "10202E00",
+                "dataEnabled": "38FCD703"
+            },
+            {
+                "offset": 3303275,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "10202E00",
+                "dataEnabled": "38FCD703"
+            },
+            {
+                "offset": 3377063,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00480000",
+                "dataEnabled": "FAFF0500"
+            },
+            {
+                "offset": 3377161,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3377367,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3378281,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60C04E00",
+                "dataEnabled": "D0F98F06"
+            },
+            {
+                "offset": 3378403,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3378428,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1CC00600",
+                "dataEnabled": "8CFF8F00"
+            },
+            {
+                "offset": 3378629,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3378801,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3378940,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1CC00600",
+                "dataEnabled": "8CFF8F00"
+            },
+            {
+                "offset": 3378964,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3378969,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3379249,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3379660,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3379685,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60401400",
+                "dataEnabled": "B0FEAF01"
+            },
+            {
+                "offset": 3379905,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3379972,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1CC00600",
+                "dataEnabled": "8CFF8F00"
+            },
+            {
+                "offset": 3380059,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3380181,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 3752581,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3753056,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 3753198,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 3753480,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3757094,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3757105,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 3759662,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3759673,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 3787595,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3788477,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3793385,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3793396,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144048C1E20A",
+                "dataEnabled": "4869D0FFFF000090"
+            },
+            {
+                "offset": 3798877,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3798888,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 3817781,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3817792,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 3840794,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3840805,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144048C1E20A",
+                "dataEnabled": "4869D0FFFF000090"
+            },
+            {
+                "offset": 3843499,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3843518,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 3885701,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3886006,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3886310,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3886614,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3886918,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3893066,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3896836,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3896848,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4A8D146D000000004903D548C1E20A",
+                "dataEnabled": "4969D5FFFF00000F1F840000000000"
+            },
+            {
+                "offset": 3897065,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3897085,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4A8D146D000000004903D548C1E20A",
+                "dataEnabled": "4969D5FFFF00000F1F840000000000"
+            },
+            {
+                "offset": 3897602,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3897639,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60401400",
+                "dataEnabled": "B0FEAF01"
+            },
+            {
+                "offset": 3897776,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3897798,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3897846,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3897903,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3897960,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3898017,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 3898726,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3898738,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4B8D147648C1E20A",
+                "dataEnabled": "4969D6FFFF000090"
+            },
+            {
+                "offset": 3906483,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 3906494,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147F48C1E20A",
+                "dataEnabled": "4869D7FFFF000090"
+            },
+            {
+                "offset": 4860373,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 4860397,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 4972871,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5040862,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 5116856,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5116971,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5116986,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08B00700",
+                "dataEnabled": "64FFA300"
+            },
+            {
+                "offset": 5117088,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5117103,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08600F00",
+                "dataEnabled": "C0FE4701"
+            },
+            {
+                "offset": 5117205,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5117220,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08101700",
+                "dataEnabled": "1CFEEB01"
+            },
+            {
+                "offset": 5117322,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5117337,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08C01E00",
+                "dataEnabled": "78FD8F02"
+            },
+            {
+                "offset": 5117443,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5117462,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08702600",
+                "dataEnabled": "D4FC3303"
+            },
+            {
+                "offset": 5119167,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5119289,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5119304,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08B00700",
+                "dataEnabled": "64FFA300"
+            },
+            {
+                "offset": 5119416,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5119431,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08600F00",
+                "dataEnabled": "C0FE4701"
+            },
+            {
+                "offset": 5119543,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5119558,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08101700",
+                "dataEnabled": "1CFEEB01"
+            },
+            {
+                "offset": 5119670,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5119685,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08C01E00",
+                "dataEnabled": "78FD8F02"
+            },
+            {
+                "offset": 5119793,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5119808,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08702600",
+                "dataEnabled": "D4FC3303"
+            },
+            {
+                "offset": 5176528,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5176739,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 5180141,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5180337,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5182847,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5182862,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08C01E00",
+                "dataEnabled": "78FD8F02"
+            },
+            {
+                "offset": 5183095,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0C202E00",
+                "dataEnabled": "34FCD703"
+            },
+            {
+                "offset": 5183152,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 5183199,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 5191038,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0C202E00",
+                "dataEnabled": "34FCD703"
+            },
+            {
+                "offset": 5191083,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 5207875,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5208012,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5208360,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5209755,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5210332,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5210530,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5215458,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 5217610,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "14202E00",
+                "dataEnabled": "3CFCD703"
+            },
+            {
+                "offset": 5223866,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5228321,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5228476,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08B00700",
+                "dataEnabled": "64FFA300"
+            },
+            {
+                "offset": 5228571,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08600F00",
+                "dataEnabled": "C0FE4701"
+            },
+            {
+                "offset": 5228667,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08101700",
+                "dataEnabled": "1CFEEB01"
+            },
+            {
+                "offset": 5228763,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08C01E00",
+                "dataEnabled": "78FD8F02"
+            },
+            {
+                "offset": 5228859,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08702600",
+                "dataEnabled": "D4FC3303"
+            },
+            {
+                "offset": 5229103,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5229897,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00B00700",
+                "dataEnabled": "5CFFA300"
+            },
+            {
+                "offset": 5231704,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5280048,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 5280059,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 5506389,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6061405,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6061423,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 6062065,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6105547,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6105559,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4F8D047F49C1E00A",
+                "dataEnabled": "4D69C7FFFF000090"
+            },
+            {
+                "offset": 6127620,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6127633,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 6127787,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6127793,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147F4883C00848C1E20A",
+                "dataEnabled": "4869D7FFFF00004883C00890"
+            },
+            {
+                "offset": 6127935,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6127941,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D14764883C00848C1E20A",
+                "dataEnabled": "4869D6FFFF00004883C00890"
+            },
+            {
+                "offset": 6128358,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6128369,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 6128523,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6128534,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147F48C1E20A",
+                "dataEnabled": "4869D7FFFF000090"
+            },
+            {
+                "offset": 6128691,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6128702,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 6128855,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6128928,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6128944,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6129475,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6129635,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6129677,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6129952,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6130089,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6130109,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6130637,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6130663,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4048C1E10A",
+                "dataEnabled": "4869C8FFFF000090"
+            },
+            {
+                "offset": 6130840,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6131047,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6131065,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 6131313,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6131352,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6131672,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6131690,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4048C1E10A",
+                "dataEnabled": "4869C8FFFF000090"
+            },
+            {
+                "offset": 6131819,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6132395,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6132406,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4948C1E10A",
+                "dataEnabled": "4869C9FFFF000090"
+            },
+            {
+                "offset": 6133206,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6133217,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147F4883C00848C1E20A",
+                "dataEnabled": "4869D7FFFF00004883C00890"
+            },
+            {
+                "offset": 6133398,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6133409,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147F48C1E20A",
+                "dataEnabled": "4869D7FFFF000090"
+            },
+            {
+                "offset": 6133971,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 6139584,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6139595,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 6140077,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6140088,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147F48C1E20A",
+                "dataEnabled": "4869D7FFFF000090"
+            },
+            {
+                "offset": 6140498,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6140509,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147648C1E20A",
+                "dataEnabled": "4869D6FFFF000090"
+            },
+            {
+                "offset": 6140684,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6140713,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60401400",
+                "dataEnabled": "B0FEAF01"
+            },
+            {
+                "offset": 6140759,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6140785,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6140804,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1CC00600",
+                "dataEnabled": "8CFF8F00"
+            },
+            {
+                "offset": 6140815,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6141008,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6141019,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147648C1E20A",
+                "dataEnabled": "4869D6FFFF000090"
+            },
+            {
+                "offset": 6141290,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6141334,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60401400",
+                "dataEnabled": "B0FEAF01"
+            },
+            {
+                "offset": 6141366,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6141392,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6141407,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1CC00600",
+                "dataEnabled": "8CFF8F00"
+            },
+            {
+                "offset": 6141422,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6141606,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6141620,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147648C1E20A",
+                "dataEnabled": "4869D6FFFF000090"
+            },
+            {
+                "offset": 6141712,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6141731,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147648C1E20A",
+                "dataEnabled": "4869D6FFFF000090"
+            },
+            {
+                "offset": 6142044,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6142058,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D147648C1E20A",
+                "dataEnabled": "4869D6FFFF000090"
+            },
+            {
+                "offset": 6142231,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6142250,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D1476488BFE48C1E20A",
+                "dataEnabled": "4869D6FFFF0000488BFE90"
+            },
+            {
+                "offset": 6144224,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6144238,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D144948C1E20A",
+                "dataEnabled": "4869D1FFFF000090"
+            },
+            {
+                "offset": 6145430,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6145449,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D145B48C1E20A",
+                "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 6146266,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6146286,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6146307,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6146341,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6146377,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6146414,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C401400",
+                "dataEnabled": "ACFEAF01"
+            },
+            {
+                "offset": 6149536,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF0B0000",
+                "dataEnabled": "FEFF0000"
+            },
+            {
+                "offset": 6149550,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0C4048C1E10A",
+                "dataEnabled": "4869C8FFFF000090"
+            },
+            {
+                "offset": 6149602,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "000C0000",
+                "dataEnabled": "FFFF0000"
+            },
+            {
+                "offset": 8635370,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "20202E00",
+                "dataEnabled": "48FCD703"
+            },
+            {
+                "offset": 8635466,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "10E04600",
+                "dataEnabled": "28FAE705"
+            },
+            {
+                "offset": 8635658,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "60C04E00",
+                "dataEnabled": "D0F98F06"
+            }
+        ]
+    },
+    {
+        "name": "Custom Songs folder",
+        "description": "Songs with tag id 100 are placed in a \"Custom Songs\" folder, and are removed from all other folders. The Custom Songs folder replaces the Contest folder.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2584380,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4439BF100300000F84C4000000488BCF4489AF140300004488AFF1030000E811330000",
+                "dataEnabled": "E94D6800000F1F840000000000E9586800000F1F8400000000000F1F84000000000090"
+            },
+            {
+                "offset": 2595267,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E8284D0000",
+                "dataEnabled": "E8DC3C0000"
+            },
+            {
+                "offset": 2608572,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E82F190000",
+                "dataEnabled": "E8E3080000"
+            },
+            {
+                "offset": 2609862,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4C8D153323D8FF",
+                "dataEnabled": "E9930200006690"
+            },
+            {
+                "offset": 2610526,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "486387C01300004885C00F8E380E00004881C7A0130000833F020F8465FDFFFF48FFC34883C704483BD87CEBE9170E0000486387C01300004885C00F8E070E00004881C7A0130000833F030F8434FDFFFF48FFC34883C704483BD87CEBE9E60D0000486387C01300004885C00F8ED60D00004881C7A0130000833F040F8403FDFFFF48FFC34883C704483BD87CEBE9B50D0000486387C01300004885C00F8EA50D00004881C7A01300000F1F840000000000833F050F84CAFCFFFF48FFC34883C704483BD87CEBE97C0D0000486387C01300004885C00F8E6C0D00004881C7A0130000833F060F8499FCFFFF48FFC34883C704483BD87CEBE94B0D0000486387C01300004885C00F8E3B0D00004881C7A0130000833F070F8468FCFFFF48FFC34883C704483BD87CEBE91A0D0000486387C01300004885C00F8E0A0D00004881C7A0130000833F080F8437FCFFFF48FFC34883C704483BD87CEBE9E90C0000486387C01300004885C00F8ED90C00004881C7A0130000833F090F8406FCFFFF48FFC34883C704483BD87CEBE9B80C0000486387C01300004885C00F8EA80C00004881C7A0130000833F0A0F84D5FBFFFF48FFC34883C704483BD87CEBE9870C0000486387C01300004885C00F8E770C00004881C7A0130000833F0B0F84A4FBFFFF48FFC34883C704483BD87CEBE9560C0000486387C01300004885C00F8E460C00004881C7A0130000833F0C0F8473FBFFFF48FFC34883C704483BD87CEBE9250C0000486387C01300004885C00F8E150C00004881C7A01300000F1F840000000000833F0D0F843AFBFFFF48FFC34883C704483BD87CEBE9EC0B0000486387C01300004885C00F8EDC0B00004881C7A0130000833F0E0F8409FBFFFF48FFC34883C704483BD87CEBE9BB0B0000486387C01300004885C00F8EAB0B00004881C7A0130000833F0F0F84D8FAFFFF48FFC34883C704483BD87CEBE98A0B0000486387C01300004885C00F8E7A0B00004881C7A0130000833F100F84A7FAFFFF48FFC34883C704483BD87CEBE9590B0000486387C01300004885C00F8E490B00004881C7A0130000833F110F8476FAFFFF48FFC34883C704483BD87CEBE9280B0000486387C01300004885C00F8E180B00004881C7A0130000833F120F8445FAFFFF48FFC34883C704483BD87CEBE9F70A0000486387C01300004885C00F8EE70A00004881C7A0130000833F130F8414FAFFFF48FFC34883C704483BD87CEBE9C60A0000486387C01300004885C00F8EB60A00004881C7A0130000833F140F84E3F9FFFF48FFC34883C704483BD87CEBE9950A0000486387C01300004885C00F8E850A00004881C7A01300000F1F840000000000833F150F84AAF9FFFF48FFC34883C704483BD87CEBE95C0A0000486387C01300004885C00F8E4C0A00004881C7A0130000833F160F8479F9FFFF48FFC34883C704483BD87CEBE92B0A0000486387C01300004885C00F8E1B0A00004881C7A0130000833F170F8448F9FFFF48FFC34883C704483BD87CEBE9FA090000486387C01300004885C00F8EEA0900004881C7A0130000833F180F8417F9FFFF48FFC34883C704483BD87CEBE9C9090000486387C01300004885C00F8EB90900004881C7A0130000833F190F84E6F8FFFF48FFC34883C704483BD87CEBE998090000486387C01300004885C00F8E880900004881C7A0130000833F1A0F84B5F8FFFF48FFC34883C704483BD87CEBE967090000486387C01300004885C00F8E570900004881C7A0130000833F1B0F8484F8FFFF48FFC34883C704483BD87CEBE936090000486387C01300004885C00F8E260900004881C7A0130000833F1C0F8453F8FFFF48FFC34883C704483BD87CEBE905090000486387C01300004885C00F8EF50800004881C7A01300000F1F840000000000833F1D0F841AF8FFFF48FFC34883C704483BD87CEBE9CC080000486387C01300004885C00F8EBC0800004881C7A0130000833F1E0F84E9F7FFFF48FFC34883C704483BD87CEBE99B080000486387C01300004885C00F8E8B0800004881C7A0130000833F1F0F84B8F7FFFF48FFC34883C704483BD87CEBE96A080000486387C01300004885C00F8E5A0800004881C7A0130000833F200F8487F7FFFF48FFC34883C704483BD87CEBE939080000486387C01300004885C00F8E290800004881C7A0130000833F210F8456F7FFFF48FFC34883C704483BD87CEBE908080000486387C01300004885C00F8EF80700004881C7A0130000833F220F8425F7FFFF48FFC34883C704483BD87CEBE9D7070000486387C01300004885C00F8EC70700004881C7A0130000833F230F84F4F6FFFF48FFC34883C704483BD87CEBE9A6070000486387C01300004885C00F8E960700004881C7A0130000833F240F84C3F6FFFF48FFC34883C704483BD87CEBE975070000486387C01300004885C00F8E650700004881C7A01300000F1F840000000000833F250F848AF6FFFF48FFC34883C704483BD87CEBE93C070000",
+                "dataEnabled": "8B8FC0130000E32683BC8F9C13000064E0F6751A4183FC650F8467FDFFFF418D44249A83F8130F871C0E0000EB184183FC650F84100E0000418D44249A83F8130F86020E00004C8D155520D8FFE91DFDFFFFB901000000E9BE000000B902000000E9B4000000B903000000E9AA000000B904000000E9A0000000B905000000E996000000B906000000E98C000000B907000000E982000000B908000000E978000000B909000000E96E000000B90A000000E964000000B90B000000E95A000000B90C000000E950000000B90D000000E946000000B90E000000E93C000000B90F000000E932000000B910000000E928000000B911000000E91E000000B912000000E914000000B913000000E90A000000B914000000E9000000006BC90A488D8758000000BA06000000448B00442BC14183F80A0F824CFCFFFF4883C004FFCA75E8E9020D00004D85C9745D418D809AFFFFFF83F8137729458B91C013000041FFCA78344383BC91A01300006475F083F810720583C038EB0383C0144189C0EB28458B91C013000041FFCA781C4383BC91A01300006475F031C048890248894208488942104889D0C3E9E50F00008B0283E86683F8137706B801000000C340534883EC70E9902E00008B013D7A0000000F824D0000003D890000000F864D0000003DAF0000000F84420000003DB90000000F84370000003DC70000000F842C0000003DC90000000F84210000003DE10000000F820B0000003DE30000000F860B000000488BC4574156E97BEF350031C0C34439BF100300000F850B00000041BF01000000E9030000004531FF8BCBE830A435004885C00F845F0000008B88C0130000FFC90F885100000083BC88A0130000640F85EAFFFFFF488BC348C1E82083F8060F832898FFFF48B800000000010000004803D841BF6500000083BF14030000650F85320000004883BF88030000010F87FA97FFFFE91F0000004585FF0F85EC97FFFF4489AF140300004488AFF1030000488BCFE839CAFFFF41BB010000004C8B87F8020000488B9700030000458BCD4C3BC20F836B000000418338010F85460000004539B8700000000F85390000004585FF0F840F000000453958080F8435000000E9210000004539A8080000000F8514000000498B8088000000493980800000000F840F00000041FFC14981C0E0000000E998FFFFFF44898F10030000E90B97FFFF4585DB0F840297FFFF4531DBE96AFFFFFFCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+            },
+            {
+                "offset": 2614412,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5EDF27008FDF2700C0DF2700F1DF27002AE027005BE027008CE02700BDE02700EEE027001FE1270050E1270081E12700BAE12700EBE127001CE227004DE227007EE22700AFE22700E0E2270011E327004AE327007BE32700ACE32700DDE327000EE427003FE4270070E42700A1E42700DAE427000BE527003CE527006DE527009EE52700CFE5270000E6270031E62700",
+                "dataEnabled": "B0DF2700BADF2700C4DF2700CEDF2700D8DF2700E2DF2700ECDF2700F6DF270000E027000AE0270014E027001EE0270028E0270032E027003CE0270046E0270050E027005AE0270064E027006EE02700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700A6ED2700"
+            },
+            {
+                "offset": 2614676,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6AE62700",
+                "dataEnabled": "A6ED2700"
+            },
+            {
+                "offset": 2614688,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "9BE62700CCE62700",
+                "dataEnabled": "A6ED2700A6ED2700"
+            },
+            {
+                "offset": 2614700,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FDE62700",
+                "dataEnabled": "A6ED2700"
+            },
+            {
+                "offset": 2614760,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "2EE727005FE7270090E72700",
+                "dataEnabled": "A6ED2700A6ED2700A6ED2700"
+            },
+            {
+                "offset": 2619289,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E852EFFFFF",
+                "dataEnabled": "E806DFFFFF"
+            },
+            {
+                "offset": 2622896,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "40534883EC70",
+                "dataEnabled": "E956D1FFFF90"
+            },
+            {
+                "offset": 2638237,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0D64010501E8477E37008BD0B960000000E84BA33D00",
+                "dataEnabled": "488D05BC4166000F1F8400000000000F1F84000000000090"
+            },
+            {
+                "offset": 2638277,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488D0D3C010501E81F7E37008BD0B961000000E823A33D00",
+                "dataEnabled": "488D05DEAC64000F1F8400000000000F1F84000000000090"
+            },
+            {
+                "offset": 2638323,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "05000000",
+                "dataEnabled": "65000000"
+            },
+            {
+                "offset": 2638384,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "2C416600",
+                "dataEnabled": "28C96600"
+            },
+            {
+                "offset": 2638460,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2638515,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F1406600",
+                "dataEnabled": "D9C96600"
+            },
+            {
+                "offset": 2638591,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2638646,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "2ECD6600",
+                "dataEnabled": "3EC96600"
+            },
+            {
+                "offset": 2638722,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2638777,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "3B406600",
+                "dataEnabled": "C3C86600"
+            },
+            {
+                "offset": 2638853,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2638908,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E8CC6600",
+                "dataEnabled": "D8C76600"
+            },
+            {
+                "offset": 2638984,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639039,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D53C6600",
+                "dataEnabled": "5DC76600"
+            },
+            {
+                "offset": 2639115,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639170,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7A3C6600",
+                "dataEnabled": "C2C66600"
+            },
+            {
+                "offset": 2639246,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639301,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "173C6600",
+                "dataEnabled": "47C66600"
+            },
+            {
+                "offset": 2639377,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639432,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "04CB6600",
+                "dataEnabled": "FCC56600"
+            },
+            {
+                "offset": 2639508,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639563,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F1C96600",
+                "dataEnabled": "81C56600"
+            },
+            {
+                "offset": 2639639,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639694,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5E3B6600",
+                "dataEnabled": "D6C46600"
+            },
+            {
+                "offset": 2639770,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639825,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "033B6600",
+                "dataEnabled": "63C46600"
+            },
+            {
+                "offset": 2639901,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2639956,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B0376600",
+                "dataEnabled": "E0C46600"
+            },
+            {
+                "offset": 2640032,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2640087,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "55376600",
+                "dataEnabled": "6DC46600"
+            },
+            {
+                "offset": 2640163,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2640218,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F2366600",
+                "dataEnabled": "BAC36600"
+            },
+            {
+                "offset": 2640294,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2640349,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B7366600",
+                "dataEnabled": "47C36600"
+            },
+            {
+                "offset": 2640425,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2640480,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "5C366600",
+                "dataEnabled": "14C36600"
+            },
+            {
+                "offset": 2640556,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2640611,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01366600",
+                "dataEnabled": "A1C26600"
+            },
+            {
+                "offset": 2640687,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2640742,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "9E356600",
+                "dataEnabled": "4EC16600"
+            },
+            {
+                "offset": 2640818,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2640873,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "43356600",
+                "dataEnabled": "8BC26600"
+            },
+            {
+                "offset": 2640949,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2641004,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "18326600",
+                "dataEnabled": "C0C26600"
+            },
+            {
+                "offset": 2641080,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 5185953,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "7F"
+            },
+            {
+                "offset": 6145792,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "488BC4574156",
+                "dataEnabled": "E92110CAFF90"
+            },
+            {
+                "offset": 6146912,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "A7D25D00",
+                "dataEnabled": "94D15D00"
+            },
+            {
+                "offset": 9338208,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "42504D3134352D3138308CC092",
+                "dataEnabled": "437573746F6D20536F6E677300"
+            }
+        ]
+    },
+    {
+        "name": "Game FPS Target",
+        "description": "Forces the game to run at a specific FPS target.",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "60 FPS (Default)",
+                "patch": {
+                    "offset": 9975022,
+                    "dllName": "soundvoltex.dll",
+                    "data": "4E"
+                }
+            },
+            {
+                "name": "120 FPS",
+                "patch": {
+                    "offset": 9975022,
+                    "dllName": "soundvoltex.dll",
+                    "data": "5E"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Note FPS Target",
+        "description": "Forces the game's notes to run at a specific FPS target.",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "60 FPS (Default)",
+                "patch": {
+                    "offset": 4083432,
+                    "dllName": "soundvoltex.dll",
+                    "data": "660F6EF0F30FE6F6F20F5935D8E85900"
+                }
+            },
+            {
+                "name": "120 FPS",
+                "patch": {
+                    "offset": 4083432,
+                    "dllName": "soundvoltex.dll",
+                    "data": "B878000000F20F2AF0F24890F2489090"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Standard/Menu Timer Freeze",
+        "description": "Freezes all non-premium area timers.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2410248,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "84",
+                "dataEnabled": "85"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free Timer Freeze",
+        "description": "Freezes all premium area timers.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5227221,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 4982266,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 3784608,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Premium Time Length",
+        "description": "Time at which the Premium timer starts. If you have it frozen, that'll be the time shown at all times",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "00:00",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "AAB9650000000000"
+                }
+            },
+            {
+                "name": "00:01",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00CA9A3B00000000"
+                }
+            },
+            {
+                "name": "04:20",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "002835893C000000"
+                }
+            },
+            {
+                "name": "07:27",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00B6461368000000"
+                }
+            },
+            {
+                "name": "11:16",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "0068BD649D000000"
+                }
+            },
+            {
+                "name": "13:37",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00AAFE38BE000000"
+                }
+            },
+            {
+                "name": "57:30",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "0044064423030000"
+                }
+            },
+            {
+                "name": "69:00",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00B83AEBC3030000"
+                }
+            },
+            {
+                "name": "10 Minutes (Default)",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "0070C9B28B000000"
+                }
+            },
+            {
+                "name": "15 Minutes",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00282E8CD1000000"
+                }
+            },
+            {
+                "name": "20 Minutes",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00E0926517010000"
+                }
+            },
+            {
+                "name": "30 Minutes",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00505C18A3010000"
+                }
+            },
+            {
+                "name": "45 Minutes",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00788AA474020000"
+                }
+            },
+            {
+                "name": "60 Minutes",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00A0B83046030000"
+                }
+            },
+            {
+                "name": "90 Minutes",
+                "patch": {
+                    "offset": 5085390,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00F01449E9040000"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Uncensor All Jackets",
+        "description": "Uncensors all song jackets no matter the region by breaking the path to jacket masks.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9470344,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "61",
+                "dataEnabled": "75"
+            }
+        ]
+    },
+    {
+        "name": "Fake Region",
+        "description": "Forces the game to run as a specific region without altering language, which allows for region-specific content locking. Use Japan for everything to be unlocked.",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 3038102,
+                    "dllName": "soundvoltex.dll",
+                    "data": "E8A5932E0085C00F85FA000000"
+                }
+            },
+            {
+                "name": "Japan (J)",
+                "patch": {
+                    "offset": 3038102,
+                    "dllName": "soundvoltex.dll",
+                    "data": "B8000000008905CFBE82009090"
+                }
+            },
+            {
+                "name": "Korea (K)",
+                "patch": {
+                    "offset": 3038102,
+                    "dllName": "soundvoltex.dll",
+                    "data": "B8010000008905CFBE82009090"
+                }
+            },
+            {
+                "name": "Asia (A)",
+                "patch": {
+                    "offset": 3038102,
+                    "dllName": "soundvoltex.dll",
+                    "data": "B8020000008905CFBE82009090"
+                }
+            },
+            {
+                "name": "Indonesia (Y)",
+                "patch": {
+                    "offset": 3038102,
+                    "dllName": "soundvoltex.dll",
+                    "data": "B8030000008905CFBE82009090"
+                }
+            },
+            {
+                "name": "America (U)",
+                "patch": {
+                    "offset": 3038102,
+                    "dllName": "soundvoltex.dll",
+                    "data": "B8040000008905CFBE82009090"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Force English Sort Options",
+        "description": "Forces the game to use english sort options within the FX-R menu in song select.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 439468,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B15568E2601",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 439497,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B15398E2601",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 439526,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B151C8E2601",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 439555,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B15FF8D2601",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 439584,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B15E28D2601",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 439619,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B15BF8D2601",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 439654,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B159C8D2601",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 9862860,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B930B330A23087730698",
+                "dataEnabled": "530063006F0072006500"
+            }
+        ]
+    },
+    {
+        "name": "Unscramble Touch Screen Keypad",
+        "description": "Unscrambles the touchscreen's Keypad.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2127033,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E8F2100000",
+                "dataEnabled": "B801000000"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Average Score",
+        "description": "Bypass checks to enable music level average score for users below 20 volforce.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2083055,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C40",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 2083071,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7430",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 2577861,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C26",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 1537769,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7430",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5602630,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C4C",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5602645,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "743D",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 6155072,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4883EC",
+                "dataEnabled": "B001C3"
+            }
+        ]
+    },
+    {
+        "name": "Hide premium guide banner",
+        "description": "blpass_ef (rainbow outline on health gauge) is shown instead of pt_sousa_usr.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4307425,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "BB285000",
+                "dataEnabled": "CB285000"
+            }
+        ]
+    },
+    {
+        "name": "Hide all bottom text",
+        "description": "Hides all text typically found in the bottom corners of the screen such as \"PASELI\" or \"FREE PLAY\".",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9369704,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4652454520504C4159",
+                "dataEnabled": "000000000000000000"
+            },
+            {
+                "offset": 9369656,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4556454E54204D4F4445",
+                "dataEnabled": "00000000000000000000"
+            },
+            {
+                "offset": 9369672,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "54454E4B4149434849204D4F4445",
+                "dataEnabled": "0000000000000000000000000000"
+            },
+            {
+                "offset": 9369792,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "504153454C493A202573202B202573",
+                "dataEnabled": "000000000000000000000000000000"
+            },
+            {
+                "offset": 9369744,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4352454449543A202564202020434F494E3A202564202F202564",
+                "dataEnabled": "0000000000000000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 9369688,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4352454449543A20256400",
+                "dataEnabled": "0000000000000000000000"
+            },
+            {
+                "offset": 9370112,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "504153454C493A204E4F5420415641494C41424C45",
+                "dataEnabled": "000000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 9370136,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "504153454C493A204E4F204143434F554E54",
+                "dataEnabled": "000000000000000000000000000000000000"
+            },
+            {
+                "offset": 9369775,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00504153454C493A20257300",
+                "dataEnabled": "000000000000000000000000"
+            },
+            {
+                "offset": 9369720,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "455854524120504153454C493A202573",
+                "dataEnabled": "00000000000000000000000000000000"
+            },
+            {
+                "offset": 9370155,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0025302A6400",
+                "dataEnabled": "000000000000"
+            },
+            {
+                "offset": 9369872,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8347815B83578393834F928682C582B728257381602989F08F9C82B782E982C982CD8365835883678381836A8385815B82C993FC82E8814183658393834C815B82F02030302C2030302C2030302C20362C20302082CC8F8782C5899F82B582C482AD82BE82B382A281420A8347815B83578393834F82F08DC48A4A82B782E98FEA8D8782CD8365835883678356815B839382C530302C2030302C2030302C20362C20312082CC8F8782C5899F82B582C482AD82BE82B382A28142",
+                "dataEnabled": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            }
+        ]
+    },
+    {
+        "name": "Hide Timers",
+        "description": "Hides all timer visuals on main/sub screen. Recommended with timer freeze.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1525246,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1951875,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F30F1015BD6F7A00",
+                "dataEnabled": "0F57D29090909090"
+            },
+            {
+                "offset": 1953713,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F30F10158F687A00",
+                "dataEnabled": "0F57D29090909090"
+            },
+            {
+                "offset": 2409322,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "400FB6D5",
+                "dataEnabled": "33D29090"
+            },
+            {
+                "offset": 2414478,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 5194313,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1958801,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F28DF0F28D7",
+                "dataEnabled": "0F57DB33D290"
+            },
+            {
+                "offset": 1958811,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "D1C14800",
+                "dataEnabled": "42BE4800"
+            },
+            {
+                "offset": 1959039,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F28DF0F28D7",
+                "dataEnabled": "0F57DB33D290"
+            },
+            {
+                "offset": 1959049,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E3C04800",
+                "dataEnabled": "54BD4800"
+            }
+        ]
+    },
+    {
+        "name": "Force BIO2 (KFC) IO in Valkyrie mode",
+        "description": "Forces the game to use BIO2 IO in Valkyrie mode.",
+        "caution": "Can be useful for arcade cabinets. If you don't know why you need this, ignore it.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6214837,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8705",
+                "dataEnabled": "A70C"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Headphones",
+        "description": "Assumes headphones are always connected, allowing for volume control. Useful for cabinets.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6390118,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F10060F114760",
+                "dataEnabled": "C7476001000000"
+            }
+        ]
+    },
+    {
+        "name": "Audio Mode",
+        "description": "Changes audio mode. If ASIO driver is not set, fall back to WASAPI.",
+        "caution": "Try using spice2x's '-wasapishared' and '-lowlatencysharedaudio' options for better results.",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "ASIO 8ch (Default)",
+                "patch": {
+                    "offset": 6477543,
+                    "dllName": "soundvoltex.dll",
+                    "data": "2B"
+                }
+            },
+            {
+                "name": "ASIO 2ch",
+                "patch": {
+                    "offset": 6477543,
+                    "dllName": "soundvoltex.dll",
+                    "data": "2A"
+                }
+            },
+            {
+                "name": "WASAPI Shared (48kHz)",
+                "patch": {
+                    "offset": 6477543,
+                    "dllName": "soundvoltex.dll",
+                    "data": "00"
+                }
+            },
+            {
+                "name": "WASAPI Exclusive (16bit 44.1kHz 2ch)",
+                "patch": {
+                    "offset": 6477543,
+                    "dllName": "soundvoltex.dll",
+                    "data": "02"
+                }
+            },
+            {
+                "name": "WASAPI Exclusive (24bit 44.1kHz 2ch)",
+                "patch": {
+                    "offset": 6477543,
+                    "dllName": "soundvoltex.dll",
+                    "data": "04"
+                }
+            },
+            {
+                "name": "WASAPI Exclusive (24bit 44.1kHz 6ch)",
+                "patch": {
+                    "offset": 6477543,
+                    "dllName": "soundvoltex.dll",
+                    "data": "0E"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Disable Subscreen in Valkyrie mode",
+        "description": "Forcefully disables the subscreen.",
+        "caution": "ONLY for Valkyrie (G spec). Consider using spice2x's \"-sdvxnosub\" option instead.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5898270,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "83BDB800000002410F93C64488742451",
+                "dataEnabled": "41B60044887424519090909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Disable power change",
+        "description": "Prevents the game from changing power settings.",
+        "caution": "Typically not required with spice2x.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4085881,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Disable monitor change",
+        "description": "Prevents the game from changing monitor settings.",
+        "caution": "Typically not required with spice2x.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4086033,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Valkyrie Mode 60Hz",
+        "description": "Allows the game to run at 60Hz.",
+        "caution": "ONLY for Valkyrie (G Spec). Might require \"Force BIO2 (KFC) IO in Valkyrie mode\" to work.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4086072,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "75"
+            },
+            {
+                "offset": 5899867,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "75"
+            },
+            {
+                "offset": 5902208,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "75"
+            }
+        ]
+    },
+    {
+        "name": "Fix Duplicate Players in Online Matchmaking",
+        "description": "Fix duplicate players appearing when using the Freeze Timer patch during online matchmaking.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5966245,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]

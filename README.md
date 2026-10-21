@@ -7,10 +7,8 @@ This repo provides spice2x patches that raise the music ID limit from 3072 to 65
 ### URL: `https://beafowl.github.io/sdvx-mid-unlock`
 
 The patch files also contain the patches from [sp2xpatcher](https://github.com/eamuse/sp2xpatcher)
-(`https://patcher.573.moe`), so a single import gives you both. Each set is kept on its own as well:
-
-- [patches/mid-unlock](patches/mid-unlock): only the patches from this repo
-- [patches/sp2xpatcher](patches/sp2xpatcher): the unchanged sp2xpatcher files
+(`https://patcher.573.moe`), so a single import gives you both. The patches from this repo alone are
+in [patches/mid-unlock](patches/mid-unlock).
 
 ## Usage
 
