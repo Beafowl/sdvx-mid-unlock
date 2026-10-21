@@ -2,13 +2,13 @@
     {
         "gameCode": "KFC",
         "version": "KFC-2026101300",
-        "lastUpdated": "2026-10-21 07:09:14",
+        "lastUpdated": "2026-10-21 20:48:34",
         "peIdentifier": "KFC-6ac4e43b_7ad8d8",
         "source": "https://github.com/Beafowl/sdvx-mid-unlock; https://patcher.573.moe/"
     },
     {
         "name": "Song ID limit: 65535",
-        "description": "Raises the theoretical maximum song count from 3072 to 65535.",
+        "description": "Raises the theoretical maximum song count from 3072 to 65535. Song select also shows jackets for IDs above 9000 (stock: dummy jacket there; up to 32767).",
         "gameCode": "KFC",
         "type": "memory",
         "patches": [
@@ -2651,6 +2651,12 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "60C04E00",
                 "dataEnabled": "D0F98F06"
+            },
+            {
+                "offset": 6348369,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "29230000",
+                "dataEnabled": "00800000"
             }
         ]
     },
