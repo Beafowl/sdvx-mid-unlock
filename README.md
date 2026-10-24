@@ -1,6 +1,6 @@
-# SDVX song ID limit
+# KFC music ID unlock
 
-Every song in SOUND VOLTEX has a music ID. If a song has an ID over 3071, the game crashes while booting.
+Every song in KFC has a music ID. If a song has an ID over 3071, the game crashes while booting.
 
 This repo provides spice2x patches that raise the music ID limit from 3072 to 65535 (basically unlimited).
 
@@ -11,6 +11,9 @@ The patch files also contain the patches from [sp2xpatcher](https://github.com/e
 in [patches/mid-unlock](patches/mid-unlock).
 
 ## Usage
+
+If you are new into adding custom songs to KFC, use the [wiki](https://github.com/Beafowl/sdvx-mid-unlock/wiki),
+it should explain everything.
 
 <details>
 <summary style="font-size: 16px">Method #1: Import from URL (easiest)</summary>
