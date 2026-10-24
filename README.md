@@ -41,10 +41,6 @@ These are the patches this repo adds. The rest are described by sp2xpatcher.
 
 As mentioned above, raises the limit to 65535, so music IDs `1 .. 65534` are usable.
 
-It also lifts the song-select jacket check: the stock game shows the dummy jacket for every ID above 9000
-(the charts play, only the list and the preview are affected). With the patch, jackets show for IDs up to
-32767, the most the jacket key can hold. Keep ID 9001 free, the tutorial uses it.
-
 ### Custom Songs folder
 
 The difficulty of custom songs can be quite far from what the game would suggest at a certain level, which
