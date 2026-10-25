@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "KFC-2026091500",
-        "lastUpdated": "2026-10-21 20:48:34",
+        "lastUpdated": "2026-10-25 18:10:14",
         "peIdentifier": "KFC-6aa256e6_7ad708",
         "source": "https://github.com/Beafowl/sdvx-mid-unlock; https://patcher.573.moe/"
     },
@@ -2635,6 +2635,12 @@
                 "dataEnabled": "FFFF0000"
             },
             {
+                "offset": 6347905,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "29230000",
+                "dataEnabled": "00800000"
+            },
+            {
                 "offset": 8634906,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "20202E00",
@@ -2651,12 +2657,6 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "60C04E00",
                 "dataEnabled": "D0F98F06"
-            },
-            {
-                "offset": 6347905,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "29230000",
-                "dataEnabled": "00800000"
             }
         ]
     },
@@ -3031,6 +3031,20 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "42504D3134352D3138308CC092",
                 "dataEnabled": "437573746F6D20536F6E677300"
+            }
+        ]
+    },
+    {
+        "name": "High-score download: 8192 IDs per request",
+        "description": "At boot and every 30 minutes the game downloads the global high scores in pages of 768 music IDs, up to the highest ID in the song list. With many custom songs that is dozens of requests, and carding in while they are still running fails with \"server busy\". This asks for 8192 IDs per request instead. A server that sends HISCORE_DATA_LIMIT with its common data overrides the value.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2238099,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00030000",
+                "dataEnabled": "00200000"
             }
         ]
     },
