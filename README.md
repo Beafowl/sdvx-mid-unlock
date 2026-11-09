@@ -57,13 +57,14 @@ The folder is further categorized into **ALL** and **LEVEL 1** to **LEVEL 20** f
 
 To set all songs to a specified ID, use https://github.com/Beafowl/VoxCharger.
 
-### High-score download: 8192 IDs per request
+### High-score download: 4096 IDs per request
 
 When the game starts, and every 30 minutes, it downloads the high scores of all songs from the server,
 768 songs per request, up to the highest music ID you have. With many custom songs that is dozens of
 requests, and carding in while they are still running fails with "server busy".
 
-This patch asks for 8192 IDs per request instead, so the download is over after a few requests.
+This patch asks for 4096 IDs per request instead, so the download is over after a few requests, and
+gives the game's network buffer room for the bigger answers (16 MB instead of 4 MB).
 If the server itself tells the game a page size (`HISCORE_DATA_LIMIT`), the server's value is used.
 
 ## Credits

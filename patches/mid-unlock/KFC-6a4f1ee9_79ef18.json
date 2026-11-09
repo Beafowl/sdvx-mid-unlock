@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "KFC-2026071400",
-        "lastUpdated": "2026-10-25 18:10:12",
+        "lastUpdated": "2026-10-25 18:36:27",
         "peIdentifier": "KFC-6a4f1ee9_79ef18",
         "source": "https://github.com/Beafowl/sdvx-mid-unlock"
     },
@@ -3059,8 +3059,8 @@
         ]
     },
     {
-        "name": "High-score download: 8192 IDs per request",
-        "description": "At boot and every 30 minutes the game downloads the global high scores in pages of 768 music IDs, up to the highest ID in the song list. With many custom songs that is dozens of requests, and carding in while they are still running fails with \"server busy\". This asks for 8192 IDs per request instead. A server that sends HISCORE_DATA_LIMIT with its common data overrides the value.",
+        "name": "High-score download: 4096 IDs per request",
+        "description": "At boot and every 30 minutes the game downloads the global high scores in pages of 768 music IDs, up to the highest ID in the song list. With many custom songs that is dozens of requests, and carding in while they are still running fails with \"server busy\". This asks for 4096 IDs per request instead and gives the game's network buffer room for the bigger answers (16 MB instead of 4 MB). A server that sends HISCORE_DATA_LIMIT with its common data overrides the page size.",
         "gameCode": "KFC",
         "type": "memory",
         "patches": [
@@ -3068,7 +3068,13 @@
                 "offset": 2229587,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "00030000",
-                "dataEnabled": "00200000"
+                "dataEnabled": "00100000"
+            },
+            {
+                "offset": 6386568,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00004000",
+                "dataEnabled": "00000001"
             }
         ]
     }
