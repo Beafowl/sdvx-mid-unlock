@@ -10,5 +10,6 @@
 | KFC | soundvoltex.dll | 2026-09-01 | [KFC-6a8fe2c4_7aa1e8](patches/KFC-6a8fe2c4_7aa1e8.json) |
 | KFC | soundvoltex.dll | 2026-09-15 | [KFC-6aa256e6_7ad708](patches/KFC-6aa256e6_7ad708.json) |
 | KFC | soundvoltex.dll | 2026-10-13 | [KFC-6ac4e43b_7ad8d8](patches/KFC-6ac4e43b_7ad8d8.json) |
+| KFC | soundvoltex.dll | 2026-10-27 | [KFC-6adae954_7c5308](patches/KFC-6adae954_7c5308.json) |
 
 </details>
