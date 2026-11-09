@@ -2,13 +2,13 @@
     {
         "gameCode": "KFC",
         "version": "KFC-2026102700",
-        "lastUpdated": "2026-11-09 09:46:13",
+        "lastUpdated": "2026-11-09 18:31:02",
         "peIdentifier": "KFC-6adae954_7c5308",
         "source": "https://github.com/Beafowl/sdvx-mid-unlock; https://patcher.573.moe/"
     },
     {
         "name": "Song ID limit: 65535",
-        "description": "Raises the theoretical maximum song count from 3072 to 65535. Song select also shows jackets for IDs above 9000 (stock: dummy jacket there; up to 32767).",
+        "description": "Raises the theoretical maximum song count from 3072 to 65535.",
         "gameCode": "KFC",
         "type": "memory",
         "patches": [
@@ -125,6 +125,12 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "488D145B48C1E20A",
                 "dataEnabled": "4869D3FFFF000090"
+            },
+            {
+                "offset": 2313491,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00030000",
+                "dataEnabled": "00100000"
             },
             {
                 "offset": 2328174,
@@ -2641,6 +2647,12 @@
                 "dataEnabled": "00800000"
             },
             {
+                "offset": 6527688,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00004000",
+                "dataEnabled": "00000001"
+            },
+            {
                 "offset": 8734890,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "20202E00",
@@ -3031,26 +3043,6 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "42504D3134352D3138308CC092",
                 "dataEnabled": "437573746F6D20536F6E677300"
-            }
-        ]
-    },
-    {
-        "name": "High-score download: 4096 IDs per request",
-        "description": "At boot and every 30 minutes the game downloads the global high scores in pages of 768 music IDs, up to the highest ID in the song list. With many custom songs that is dozens of requests, and carding in while they are still running fails with \"server busy\". This asks for 4096 IDs per request instead and gives the game's network buffer room for the bigger answers (16 MB instead of 4 MB). A server that sends HISCORE_DATA_LIMIT with its common data overrides the page size.",
-        "gameCode": "KFC",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 2313491,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "00030000",
-                "dataEnabled": "00100000"
-            },
-            {
-                "offset": 6527688,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "00004000",
-                "dataEnabled": "00000001"
             }
         ]
     },
